@@ -1,0 +1,70 @@
+index HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skyward Institute of Computer Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Skyward Institute of Computer Applications Logo" width="188">
+        <h1>Skyward Institute of Computer Applications</h1>
+        <p>157, 3RD MAIN, CHAMRAJPET BANGALORE 560018</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <h2>Welcome to Skyward Institute of Computer Applications</h2>
+        <p>We provide the best training in computer application courses.</p>
+    </main>
+</body>
+</html>
+
+
+about HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us | Skyward Institute of Computer Applications</title>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>Skyward Institute of Computer Applications was founded in 2010 with the aim to provide quality education in the field of computer applications...</p>
+</body>
+</html>
+
+courses HTML 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Courses - Skyward Institute of Computer Applications</title>
+</head>
+<body>
+    <h1>Courses</h1>
+    <h2>BCA</h2>
+    <h2>MCA</h2>
+</body>
+</html>
+
