@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title of the document</title>
+    <style>
+        marquee {
+            font-size: 30px;
+            font-weight: 800;
+            color: #8ebf42;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Abdul Kalam</a></p>
+
+    <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+
+    <marquee>A scrolling text created with HTML Marquee element.</marquee>
+
+    <marquee direction="down" loop="2">A down scrolling text created with HTML Marquee element.</marquee>
+
+    <marquee direction="scroll" scrolldelay="60">Web Technologies</marquee>
+</body>
+</html>
