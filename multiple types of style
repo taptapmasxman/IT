@@ -1,0 +1,45 @@
+step 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page with Different CSS Styles</title>
+    <style>
+        /* Internal or Document Styles */
+        h2 {
+            color: red;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p.internal-paragraph {
+            color: orange;
+            font-family: Georgia, serif;
+            font-size: 16px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="D:/HTML/external.css">
+</head>
+<body>
+    <h1 style="color:blue; font-family: Helvetica;">This is a Heading with Inline CSS</h1> 
+    <p style="color:purple; font-family: Helvetica;">This is a paragraph with inline CSS.</p>
+    
+    <h2>This is a Heading with Internal CSS</h2>
+    <p class="internal-paragraph">This is a paragraph with internal CSS.</p>
+    
+    <h3>This is a Heading with External CSS</h3>
+    <p class="external-paragraph">This is a paragraph with external CSS.</p>
+</body>
+</html>
+
+
+step 1 
+
+/* external.css */
+h3 {
+    color: darkgreen;
+    font-family: Arial, sans-serif;
+}
+p.external-paragraph {
+    color: darkblue;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
